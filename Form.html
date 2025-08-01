@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Basic Form</title>
+</head>
+<body style="background-color: beige;">
+
+    <center><h2 style="font-family: Arial; color: brown;">First Form</h2></center>
+
+    <form>
+
+        <label for="name" style="color: brown;">Name:</label>
+        <input type="text"><br><br>
+
+        <label for="email" style="color: brown;">Email:</label>
+        <input type="email" ><br><br>
+
+        <label for="age" style="color: brown;">Age:</label>
+        <input type="number"><br><br>
+
+        <label style="color: brown;">Gender:</label>
+        <input type="radio" name="gender" value="male"> Male
+        <input type="radio" name="gender" value="female"> Female
+        <br><br>
+
+        <label for="message" style="color: brown;">Message:</label><br>
+        <textarea id="message" rows="4"></textarea><br><br>
+
+        <button type="submit" style="background-color: blue; color: white; border: none; padding: 10px 15px; cursor: pointer;" onmouseover="this.style.backgroundColor = 'green';" onmouseout="this.style.backgroundColor = 'blue';">
+            Submit
+        </button>
+
+    </form>
+
+</body>
+</html>
