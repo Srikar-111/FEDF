@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Photographer Portfolio</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="sticky-top custom-nav">
+  <nav class="navbar navbar-dark container d-flex flex-wrap justify-content-between">
+    <a class="navbar-brand" href="#">Photographer Portfolio</a>
+    <div class="nav-links d-flex flex-wrap">
+      <a class="nav-link text-white" href="#gallery">Gallery</a>
+      <a class="nav-link text-white" href="#services">Services</a>
+      <a class="nav-link text-white" href="#testimonials">Testimonials</a>
+      <a class="nav-link text-white" href="#contact">Contact</a>
+    </div>
+  </nav>
+</header>
+
+<section id="gallery" class="py-5 container text-center">
+  <h2 class="mb-4">Gallery</h2>
+  <div class="row g-3">
+    <div class="col-md-4 col-sm-6 col-12"><img src="https://images.unsplash.com/photo-1507525428034-b723cf961d3e?auto=format&fit=crop&w=800&q=80" class="img-fluid rounded"></div>
+    <div class="col-md-4 col-sm-6 col-12"><img src="https://webneel.com/wallpaper/sites/default/files/images/07-2013/5%20koenigsegg%20car%20hd%20wallpaper.jpg" class="img-fluid rounded"></div>
+    <div class="col-md-4 col-sm-6 col-12"><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQn4VtVD-Mp_5qsh0uoOC98nwc_cC0SzhhADA&s" class="img-fluid rounded"></div>
+  </div>
+</section>
+
+<section id="services" class="py-5 text-center section-light">
+  <div class="container">
+    <h2 class="mb-4">Services</h2>
+    <div class="row">
+      <div class="col-md-4 col-sm-6 col-12 mb-3"><div class="p-3 border rounded">Wedding Photography</div></div>
+      <div class="col-md-4 col-sm-6 col-12 mb-3"><div class="p-3 border rounded">Portrait Sessions</div></div>
+      <div class="col-md-4 col-sm-6 col-12 mb-3"><div class="p-3 border rounded">Event Coverage</div></div>
+    </div>
+  </div>
+</section>
+
+<section id="testimonials" class="py-5 container text-center">
+  <h2 class="mb-4">Testimonials</h2>
+  <div class="row g-3">
+    <div class="col-md-4">
+      <div class="p-3 border rounded">
+        <p>"Amazing work! Highly recommended."</p>
+        <h6>- Srikar J</h6>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="p-3 border rounded">
+        <p>"Captured our moments perfectly."</p>
+        <h6>- Madhav.</h6>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <div class="p-3 border rounded">
+        <p>"Professional and creative."</p>
+        <h6>-Varun</h6>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="py-5 section-light">
+  <div class="container">
+    <h2 class="text-center mb-4">Contact</h2>
+    <form class="mx-auto" style="max-width:600px;">
+      <input type="text" class="form-control mb-3" placeholder="Your Name">
+      <input type="email" class="form-control mb-3" placeholder="Your Email">
+      <textarea class="form-control mb-3" rows="4" placeholder="Your Message"></textarea>
+      <button class="btn btn-dark w-100">Send</button>
+    </form>
+  </div>
+</section>
+
+
+<a href="#" class="back-to-top">&#8679;</a>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<script>
+document.addEventListener("scroll", () => {
+  const btn = document.querySelector(".back-to-top");
+  btn.style.display = window.scrollY > 300 ? "inline-block" : "none";
+});
+</script>
+</body>
+</html>

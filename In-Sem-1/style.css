@@ -1,0 +1,95 @@
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background: linear-gradient(to right, #f8f9fa, #e9ecef);
+  margin: 0;
+  padding: 0;
+}
+
+h2 {
+  font-weight: bold;
+}
+
+.custom-nav {
+  background: #2c3e50 !important;
+}
+
+.section-light {
+  background: rgba(255, 255, 255, 0.9);
+}
+
+.back-to-top {
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+  background: #2c3e50;
+  color: #fff;
+  font-size: 20px;
+  padding: 10px 15px;
+  border-radius: 50%;
+  text-decoration: none;
+  display: none;
+}
+
+.back-to-top:hover {
+  background: #1a252f;
+}
+
+
+.nav-links {
+  gap: 15px;
+}
+
+
+@media (max-width: 992px) {
+  h2 {
+    font-size: 1.8rem;
+  }
+  .nav-links {
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-top: 10px;
+  }
+}
+
+
+@media (max-width: 768px) {
+  h2 {
+    font-size: 1.5rem;
+  }
+  .nav-links {
+    gap: 10px;
+  }
+  .nav-link {
+    font-size: 14px;
+  }
+}
+
+
+@media (max-width: 480px) {
+  h2 {
+    font-size: 1.2rem;
+  }
+  .navbar-brand {
+    font-size: 1rem;
+  }
+  .back-to-top {
+    font-size: 16px;
+    padding: 8px 12px;
+  }
+}
+
+#testimonials p {
+  font-style: italic;
+  margin-bottom: 0.5rem;
+}
+
+#testimonials h6 {
+  margin: 0;
+  font-weight: bold;
+  color: #333;
+}
