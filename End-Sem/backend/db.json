@@ -1,0 +1,45 @@
+{
+  "employees": [
+    {
+      "id": 1,
+      "name": "Rahul",
+      "department": "IT"
+    },
+    {
+      "id": 2,
+      "name": "Priya",
+      "department": "HR"
+    },
+    {
+      "id": 3,
+      "name": "Arjun",
+      "department": "Finance"
+    }
+  ],
+  "leaves": [
+    {
+      "id": 1,
+      "employeeId": 1,
+      "type": "Sick Leave",
+      "from": "2025-01-10",
+      "to": "2025-01-12",
+      "status": "Approved"
+    },
+    {
+      "id": "043d",
+      "employeeId": 3,
+      "type": "Casual Leave",
+      "from": "2025-11-14",
+      "to": "2025-11-16",
+      "status": "Pending"
+    },
+    {
+      "id": "e023",
+      "employeeId": 2,
+      "type": "Sick Leave",
+      "from": "2025-11-26",
+      "to": "2025-11-28",
+      "status": "Pending"
+    }
+  ]
+}
